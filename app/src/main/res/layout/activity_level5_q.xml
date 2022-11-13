@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img5"
+    android:gravity="center"
+    android:padding="10dp"
+    tools:context=".Level5Q">
+
+    <TextView
+        android:id="@+id/l1q1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Q1"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        >
+        <ProgressBar
+            android:id="@+id/p1l1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:progress="0"
+            android:max="5"
+            android:minHeight="50dp"
+            style="?android:progressBarStyleHorizontal"
+            >
+
+        </ProgressBar>
+
+        <TextView
+            android:id="@+id/p1l1t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 of 5"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            >
+
+        </TextView>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/l1op1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="option1"
+        android:background="@drawable/question_option"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/l1op2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="option2"
+        android:gravity="center"
+        android:background="@drawable/question_option"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="#0B0808">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/l1op3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="option3"
+        android:gravity="center"
+        android:background="@drawable/question_option"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/l1op4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="option4"
+        android:gravity="center"
+        android:background="@drawable/question_option"
+        android:layout_marginTop="20dp"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="90dp"
+        >
+
+    </Button>
+</LinearLayout>
