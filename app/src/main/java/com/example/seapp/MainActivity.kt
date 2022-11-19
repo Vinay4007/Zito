@@ -13,18 +13,26 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         window.decorView.systemUiVisibility= View.SYSTEM_UI_FLAG_FULLSCREEN
            button.setOnClickListener {
-               if(input.text.toString().isEmpty())
+               if(name.text.toString().isEmpty())
                {
                     Toast.makeText(this,"Enter your name",Toast.LENGTH_SHORT).show()
                 }
                 else{
-                    var intent = Intent(this,LevelsActivity::class.java)
-                   intent.putExtra("${Setdata.name}",input.text.toString())
+
+                    var intent = Intent(this,Navbar::class.java)
+                   intent.putExtra("${Setdata.name}",name.text.toString())
+
                     startActivity(intent)
+
 //                   finish()
                 }
            }
     }
+
+//    override fun saveData(){
+//
+//    }
+
 //
 //    override fun onBackPressed() {
 //        var int = 0

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SEApp">
         <activity
+            android:name=".Navbar"
+            android:exported="false" />
+        <activity
             android:name=".Level5Result"
             android:exported="false" />
         <activity

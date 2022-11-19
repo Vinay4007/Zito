@@ -14,6 +14,7 @@ import kotlin.math.log10
 
 class Level1Q1 : AppCompatActivity() {
 
+    private var Name:String?=null
     private var score:Int=0
     private var currentPosition:Int=1
     private var questionList:ArrayList<Questiondata>?=null
@@ -22,6 +23,7 @@ class Level1Q1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_level1_q1)
 
+        Name=intent.getStringExtra(Setdata.name)
         questionList=Setdata.getQuestion()
 
         setQuestion()
@@ -70,6 +72,7 @@ class Level1Q1 : AppCompatActivity() {
                     }
                     else->{
                        var intent = Intent(this,Level1Result::class.java)
+                        intent.putExtra(Setdata.name,Name.toString())
                         intent.putExtra(Setdata.score,score.toString())
                         intent.putExtra("total size",questionList!!.size.toString())
                         startActivity(intent)
