@@ -31,10 +31,9 @@
                   android:layout_width="match_parent"
                   android:layout_height="wrap_content"
                   android:layout_margin="20dp"
-                  android:text="Hello do you know how  pollution affects your health? No problem you can know what are the uses of that and how to maintain them in this paragraph Try reading  it and understand them.
-          After Completion of Reading try to answer the quiz based on this topic."
-                  android:textColor="@color/black"
-                  android:textSize="33dp"
+                  android:text="Let's have water, as you tasted, it is tasteless, is it useless? Ofcourse NO as our body has 70% water, a vital thing for human being. We drink don't drink all knids of water but only clean water. Clean means it is free from dust, visible impurities and invisible impurities like dissolved chemicals.We get this clean water by either filter or boil it, if necessary. But we don't always get good water which can be purified like this like sewage, factory waste dumped water bodies. We cannot just ignore these because of dirtiness, but have to take care of that water due to scarcity.Some ways of cleaning this water are chemical purification, distillation, reverse osmosis. These for making clean. But we all know a resource for clean water - RAIN,  which is cleanest water source from nature. Harvest it and use it. Saving water doesn't mean not to use water, it means use wisely. \n"
+                  android:textColor="@color/white"
+                  android:textSize="18dp"
                   android:textStyle="italic">
 
               </TextView>
@@ -90,14 +89,14 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="177dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"
         android:gravity="center"
         android:text="Start"
-        android:textSize="25sp"
+        android:textSize="18sp"
         android:textStyle="italic"
 
         >

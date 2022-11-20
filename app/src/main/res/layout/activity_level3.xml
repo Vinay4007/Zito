@@ -31,11 +31,36 @@
                android:layout_width="match_parent"
                android:layout_height="wrap_content"
                android:layout_margin="20dp"
-               android:text="Hello do you know about physical exercise habits? No problem you can know what are the uses of that and how to maintain them in this paragraph Try reading  it and understand them.
-          After Completion of Reading try to answer the quiz based on this topic.Hello Hello Hello Hello HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHellovHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello do you know about physical exercise habits? No problem you can know what are the uses of that and how to maintain them in this paragraph Try reading  it and understand them.
-          After Completion of Reading try to answer the quiz based on this topic.Hello Hello Hello Hello HelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHellovHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHelloHello"
-               android:textColor="@color/black"
-               android:textSize="20sp"
+               android:text="Mental health is more important now than ever
+before. It impacts every area of our lives. The
+importance of good mental health ripples into
+everything we do, think, or say.
+Mental health problems like anxiety are just as real
+as physical illnesses. When they are mild you will
+often get better on your own, the way you might
+from a cold. But at times we need help. We might
+need to talk to someone or perhaps learn new ways
+to deal with difficult feelings. Sometimes we may
+need to take medicine. But with the right help we
+can get better
+People can experience depression in different ways.
+Some may lose their appetite while others eat more.
+Some people feel tired while others find it hard to
+sleep. What most people experience however is
+sadness or hopelessness and very often they are no
+longer able to enjoy the things they previously took
+great pleasure in. But with the right help they can
+and do recover completely.
+Young adults aged 18-25 years had the highest
+1
+prevalence of SMI (9.7%) compared to adults aged
+26-49 years (6.9%) and aged 50 and older (3.4%).
+The prevalence of SMI was highest among the adults
+reporting two or more races (9.9%), followed by
+American Indian / Alaskan Native (AI/AN) adults
+(6.6%). \n"
+               android:textColor="@color/white"
+               android:textSize="18dp"
                android:textStyle="italic">
 
            </TextView>
@@ -79,7 +104,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="177dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_marginLeft="50dp"

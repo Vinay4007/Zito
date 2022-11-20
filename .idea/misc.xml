@@ -7,7 +7,8 @@
         <entry key="..\:/SEApp/app/src/main/res/drawable/question_option.xml" value="0.14322916666666666" />
         <entry key="..\:/SEApp/app/src/main/res/drawable/selected_option.xml" value="0.14322916666666666" />
         <entry key="..\:/SEApp/app/src/main/res/drawable/wrongoption.xml" value="0.14322916666666666" />
-        <entry key="..\:/SEApp/app/src/main/res/layout/activity_level1.xml" value="0.12708333333333333" />
+        <entry key="..\:/SEApp/app/src/main/res/layout-v28/activity_levels.xml" value="0.140625" />
+        <entry key="..\:/SEApp/app/src/main/res/layout/activity_level1.xml" value="0.264" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level1_q1.xml" value="0.264" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level1_result.xml" value="0.12708333333333333" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level2.xml" value="0.12708333333333333" />
@@ -17,18 +18,19 @@
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level3_q.xml" value="0.12708333333333333" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level3_result.xml" value="0.12708333333333333" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level4.xml" value="0.12708333333333333" />
-        <entry key="..\:/SEApp/app/src/main/res/layout/activity_level4_q.xml" value="0.12708333333333333" />
+        <entry key="..\:/SEApp/app/src/main/res/layout/activity_level4_q.xml" value="0.1" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level4_result.xml" value="0.12708333333333333" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level5.xml" value="0.12708333333333333" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level5_q.xml" value="0.12708333333333333" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_level5_result.xml" value="0.12708333333333333" />
-        <entry key="..\:/SEApp/app/src/main/res/layout/activity_levels.xml" value="0.2" />
-        <entry key="..\:/SEApp/app/src/main/res/layout/activity_main.xml" value="0.176" />
+        <entry key="..\:/SEApp/app/src/main/res/layout/activity_levels.xml" value="0.176" />
+        <entry key="..\:/SEApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/SEApp/app/src/main/res/layout/activity_navbar.xml" value="0.2" />
         <entry key="..\:/SEApp/app/src/main/res/layout/nav.xml" value="0.14010416666666667" />
         <entry key="..\:/SEApp/app/src/main/res/layout/nav_header.xml" value="0.14010416666666667" />
         <entry key="..\:/SEApp/app/src/main/res/layout/navbar.xml" value="0.176" />
         <entry key="..\:/SEApp/app/src/main/res/menu/nav_menu.xml" value="0.264" />
+        <entry key="..\:/SEApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.15677083333333333" />
       </map>
     </option>
   </component>

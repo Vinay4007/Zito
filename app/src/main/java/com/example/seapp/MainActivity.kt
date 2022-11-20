@@ -19,8 +19,8 @@ class MainActivity : AppCompatActivity() {
                 }
                 else{
 
-                    var intent = Intent(this,Navbar::class.java)
-                   intent.putExtra("${Setdata.name}",name.text.toString())
+                    var intent = Intent(this,LevelsActivity::class.java)
+
 
                     startActivity(intent)
 

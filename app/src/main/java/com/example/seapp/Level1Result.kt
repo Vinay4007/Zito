@@ -10,11 +10,11 @@ class Level1Result : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_level1_result)
-        val userName=intent.getStringExtra(Setdata.name)
+//        val userName=intent.getStringExtra(Setdata.name)
         val score=intent.getStringExtra(Setdata.score)
         val totalQuestion=intent.getStringExtra("total size")
 
-         cong.text="Congratulations ${userName} !!"
+//         cong.text="Congratulations ${userName} !!"
         score1.text="${score} / ${totalQuestion}"
         button16.setOnClickListener {
 

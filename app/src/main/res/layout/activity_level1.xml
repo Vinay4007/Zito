@@ -30,10 +30,33 @@
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
               android:layout_margin="20dp"
-              android:text="Hello do you know about good eating habits? No problem you can know what are the uses of that and how to maintain them in this paragraph Try reading  it and understand them.
-          After Completion of Reading try to answer the quiz based on this topic."
-              android:textColor="@color/black"
-              android:textSize="33sp"
+              android:text="Food has a major effect on the health of a person. Irregular ,uncontrolled eating leads to Obesity and many other diseases.
+Every 1 out of  5 children is suffering from obesity.Obesity leads to severe problems and even death.On an average human body needs 2000-2500 calories of food intake per day.The food intake should not be taken at once it is to be taken in regular intervals.Generally it is recommended to eat less in afternoon and night compared to morning.In biological terms there are many food components such as carbohydrates,proteins,fats,fibres,vitamins and minerals which are essential for the human body as everything has its own uses.All components are not available in a single food item.Some food items are rich in some components and others in others.Below is the data of calories and its main components present inside the food items.
+\nWalnuts 691 calories/100g  Fat,Protein
+\nAlmonds 575 calories/100g Fat,Protein
+\nBananas 89 calories/100g Fiber
+\nSpinach 24 calories/100g Vitamins,Fiber
+\nMushrooms 23 calories/100g Fiber,Protein
+\nCarrots 45 calories/100g Vitamins
+\nOnions 39 caloroes/100g Vitamins
+\nCorn 110 calories/100g    Contains all except protein
+\nTomatoes 25 calories/100g
+\nChicken 230calories/100g  Protein,Fats
+\nFish 150calories/100g         Protein
+\nEggs 155calories/100g        Protein
+\nMilk  50calories/100g       Vitamins, Fats
+\nRice 140calories/100g        Carbohydrates
+\nCheese 300 calories/100g     Fats
+\nLemons,oranges 100calories/100g Vitamins
+\nUses of the above food items:
+\n\n
+Chicken,fish,meat helps in building muscle
+Milk,leafy vegetables helps in making bones strong
+Carrots- Helps in preventing eye diseases
+Lemons,orange- Helps in preventing scurvy disease
+\nGood and healthy food leads to better functioning of body parts thus the person lives longer when compared to eating unhealthy food. \n"
+              android:textColor="@color/white"
+              android:textSize="18sp"
               android:textStyle="italic">
 
           </TextView>
@@ -76,7 +99,7 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="match_parent"
+        android:layout_width="177dp"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:layout_marginLeft="50dp"

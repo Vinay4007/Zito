@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SEApp">
-        <activity
-            android:name=".Navbar"
-            android:exported="false" />
+<!--        <activity-->
+<!--            android:name=".Navbar"-->
+<!--            android:exported="false" />-->
         <activity
             android:name=".Level5Result"
             android:exported="false" />
@@ -64,8 +64,8 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:screenOrientation="portrait"
-            android:theme="@style/Theme.MyApp"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.SEApp"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

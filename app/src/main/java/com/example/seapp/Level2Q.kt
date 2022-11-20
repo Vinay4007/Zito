@@ -42,12 +42,7 @@ class Level2Q : AppCompatActivity() {
             if(selected_option!=0)
             {
                 val question=questionList!![currentPosition-1]
-                if(selected_option!=question.correct_ans)
-                {
-//                    setColor(selected_option,R.drawable.wrongoption)
-
-                }
-                else
+                if(selected_option==question.correct_ans)
                 {
                     score++;
                 }
@@ -56,13 +51,9 @@ class Level2Q : AppCompatActivity() {
                 {
                     submit.text="LEVEL COMPLETED"
                 }
-                else
-                {
-                    submit.text="Go to Next Question"
-                }
             }
-            else
-            {
+//            else
+//            {
                 currentPosition++
                 when{
                     currentPosition<=questionList!!.size->{
@@ -76,8 +67,8 @@ class Level2Q : AppCompatActivity() {
                         finish()
                     }
                 }
-            }
-            selected_option=0
+//            }
+//            selected_option=0
         }
 //        Setdata.getQuestion()
 //        questionList=Setdata.getQuestion()

@@ -14,7 +14,7 @@ import kotlin.math.log10
 
 class Level1Q1 : AppCompatActivity() {
 
-    private var Name:String?=null
+
     private var score:Int=0
     private var currentPosition:Int=1
     private var questionList:ArrayList<Questiondata>?=null
@@ -23,7 +23,7 @@ class Level1Q1 : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_level1_q1)
 
-        Name=intent.getStringExtra(Setdata.name)
+
         questionList=Setdata.getQuestion()
 
         setQuestion()
@@ -44,27 +44,19 @@ class Level1Q1 : AppCompatActivity() {
             if(selected_option!=0)
             {
                 val question=questionList!![currentPosition-1]
-                if(selected_option!=question.correct_ans)
-                {
-//                    setColor(selected_option,R.drawable.wrongoption)
-
-                }
-                else
+                if(selected_option==question.correct_ans)
                 {
                     score++;
+
                 }
 //                setColor(question.correct_ans,R.drawable.correctoption)
                 if(currentPosition==questionList!!.size)
                 {
                     submit.text="LEVEL COMPLETED"
                 }
-                else
-                {
-                    submit.text="Go to Next Question"
-                }
             }
-            else
-            {
+//            else
+//            {
                 currentPosition++
                 when{
                     currentPosition<=questionList!!.size->{
@@ -72,15 +64,15 @@ class Level1Q1 : AppCompatActivity() {
                     }
                     else->{
                        var intent = Intent(this,Level1Result::class.java)
-                        intent.putExtra(Setdata.name,Name.toString())
+//                        intent.putExtra(Setdata.name,Name.toString())
                         intent.putExtra(Setdata.score,score.toString())
                         intent.putExtra("total size",questionList!!.size.toString())
                         startActivity(intent)
                         finish()
                     }
-                }
+//                }
             }
-            selected_option=0
+//            selected_option=0
         }
 //        Setdata.getQuestion()
 //        questionList=Setdata.getQuestion()
